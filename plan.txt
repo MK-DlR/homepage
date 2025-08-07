@@ -45,9 +45,10 @@ Done
             - short description
             - image
                 - gif for pc and tablet
-                - screenshot for phone
+                - screenshot for (tablet?) phone
     c. footer/contact section
         c1. main image2
+            - crop/portrait image for tablet and phone
         c2. contact info
             - fake address, phone, email
 
