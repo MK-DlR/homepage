@@ -1,0 +1,46 @@
+notes:
+    - remember the layout needs to be responsive!
+        - avoid fixed width/height, instead use: 
+            - max width
+                - use fixed width for:
+                    - small elements
+                    - things that DO need a set size (sidebars, etc)
+                - can also use static margin
+            - max height*
+                - avoid height: use margin/padding instead
+    - flexbox is naturally responsive
+        - flex-wrap
+    - desktop / tablet / phone layouts
+
+1. get main layout sections set up
+    a. header
+        a1. about info
+        a2. github link
+    b. projects
+        b1. title
+        b2. github link
+        b3. live link
+        b4. short description
+    c. contact
+
+2. compile graphics and icons for step 3
+    a. 2 main images
+    b. project screenshots/gifs
+    c. icon-links / svgs / etc
+        c1. https://devicon.dev/
+        c2. https://pictogrammers.com/library/mdi/
+    Done
+Wip
+
+3. fill in content
+    a. images
+        a1. different images for different screen sizes?
+    b. icon-links / svgs / etc
+    c. text content
+
+4. add styling
+    a. fonts
+    b. colors
+    c. background elements
+
+5. check accessibility 
