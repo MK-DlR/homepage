@@ -1,5 +1,7 @@
 8/7/25:
 
+- create basic html sections for layout
+- add project stills
 - add svgs, icons, and project gif files
 - create basic plan
 

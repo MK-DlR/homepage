@@ -5,6 +5,28 @@
     padding: 0;
 }
 
+main {
+    background-color: lightseagreen;
+}
+
+.about, .projects, .footer {
+    max-width: 94vw;
+    margin: auto;
+    padding: 1vw;
+}
+
+.about {
+    background-color: lightblue;
+}
+
+.projects {
+    background-color: lightgreen;
+}
+
+.footer {
+    background-color: lightpink;
+}
+
 .icons {
     height: 20px;
 }
