@@ -13,8 +13,13 @@ main {
     background-color: white;
 }
 
-.icons {
-    height: 20px;
+h2 {
+    font-size: 5vh;
+    padding-bottom: 4vh;
+}
+
+h3 {
+    font-size: 2.5vh;
 }
 
 .about, .projects, .contact {
@@ -27,6 +32,7 @@ main {
     max-width: 88vw;
 }
 
+/* diagonal background */
 .about {
     margin: auto;
     margin-top: -8vw;
@@ -51,6 +57,7 @@ main {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* about content section */
 .about-content {
     max-width: 88vw;
     margin-top: 30vh;
@@ -62,23 +69,65 @@ main {
 
 .about-image {
     max-height: 80vh;
+    z-index: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about-text {
     background-color: white;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    padding-left: 1.5vw;
-    padding-top: 6vh;
+    font-size: 3vh;
+    margin-top: 8vh;
+    margin-bottom: 6vh;
+    padding: 6vh 3.5vw 1.5vw 1.5vw;
     flex: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.about-icon-container {
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+    padding-right: 1.75vw;
+}
+
+.about-icons {
+    height: 5vh;
+    margin: 0.75vw;
+}
+
+/* project content section */
 .projects {
     /* border: 2px solid lightgreen; */
 }
 
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    border: 2px solid red;
+    max-width: 33vw;
+}
+
+.project-card-header {
+    display: flex;
+    align-items: center;
+}
+
+.project-icons {
+    height: 3vh;
+    margin: 0.25vw;
+}
+
+.project-card-header, .project-desc {
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+/* contact content section */
 .contact-section {
     display: flex;
     justify-content: space-between;

@@ -54,11 +54,17 @@ Done
 
 4. add styling
     a. fonts
-    b. colors
+    b. background colors
     c. background elements
         - https://9elements.com/blog/create-diagonal-layouts-like-its-2020/
         - https://codepen.io/enbee81/full/yLyrmyg
+    Done
     d. box shadows on images and cards
+    Wip
+    e. text colors
+    f. link/button effects
+        - pointer on hover, etc
+Wip
 
 5. check accessibility 
 

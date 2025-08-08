@@ -1,5 +1,7 @@
 8/8/25:
 
+- create basic project card template
+- add icons and placeholder links
 - add box shadow to images and about section
 - add diagonal background to about section
 - adjust container and image sizes
