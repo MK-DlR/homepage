@@ -1,3 +1,9 @@
+8/8/25:
+
+- add box shadow to images and about section
+- add diagonal background to about section
+- adjust container and image sizes
+
 8/7/25:
 
 - create basic html sections for layout

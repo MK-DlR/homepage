@@ -56,6 +56,9 @@ Done
     a. fonts
     b. colors
     c. background elements
+        - https://9elements.com/blog/create-diagonal-layouts-like-its-2020/
+        - https://codepen.io/enbee81/full/yLyrmyg
+    d. box shadows on images and cards
 
 5. check accessibility 
 

@@ -6,11 +6,11 @@
 }
 
 body {
-    background-color: lightslategray;
+    background-color: #0891B2;
 }
 
 main {
-    background-color: lightseagreen;
+    background-color: white;
 }
 
 .icons {
@@ -18,26 +18,65 @@ main {
 }
 
 .about, .projects, .contact {
-    max-width: 96vw;
     margin: auto;
-    padding-top: 2vw;
+    padding-top: 4vw;
     padding-bottom: 2vw;
 }
 
-.about-section {
-    display: flex;
+.projects, .contact {
+    max-width: 88vw;
 }
 
 .about {
-    border: 2px solid lightblue;
+    margin: auto;
+    margin-top: -8vw;
+    padding-bottom: 2vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transform: translateY(-125px) skewY(-13deg);
+    background-color: transparent;
+    
+}
+
+.about::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 87%; 
+    background-color: #0891B2;
+    z-index: -1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-content {
+    max-width: 88vw;
+    margin-top: 30vh;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    transform: skewY(13deg);
 }
 
 .about-image {
-    max-width: 15vw;
+    max-height: 80vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-text {
+    background-color: white;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding-left: 1.5vw;
+    padding-top: 6vh;
+    flex: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .projects {
-    border: 2px solid lightgreen;
+    /* border: 2px solid lightgreen; */
 }
 
 .contact-section {
@@ -46,9 +85,10 @@ main {
 }
 
 .contact {
-    border: 2px solid lightpink;
+    /* border: 2px solid lightpink; */
 }
 
 .contact-image {
     max-width: 25vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
