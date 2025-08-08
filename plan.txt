@@ -21,7 +21,7 @@ notes:
     c. footer/contact section
         c1. image section
         c2. contact info section
-Wip
+Done
 
 2. compile graphics and icons for step 3
     a. 2 main images
@@ -66,7 +66,9 @@ Done
         - pointer on hover, etc
 Wip
 
-5. check accessibility 
+5. add tablet and phone media queries
+
+6. check accessibility 
 
 icons:
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" class="icons" />

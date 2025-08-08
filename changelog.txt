@@ -1,5 +1,7 @@
 8/8/25:
 
+- populate project cards with gifs, names, and links
+- adjust project card layout and spacing
 - create basic project card template
 - add icons and placeholder links
 - add box shadow to images and about section
