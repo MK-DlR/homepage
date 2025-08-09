@@ -34,7 +34,9 @@ Done
 3. fill in content
     a. header/about section
         a1. main image1
+            - text over image
         a2. about info
+            - info blurb
             - github link
             - fake linked in link
     b. project section
@@ -44,21 +46,19 @@ Done
             - live link
             - short description
             - image
-                - gif for pc and tablet
-                - screenshot for (tablet?) phone
     c. footer/contact section
         c1. main image2
             - crop/portrait image for tablet and phone
         c2. contact info
             - fake address, phone, email
-Wip
+Done
 
 4. add styling
     a. fonts
     b. background colors
     c. background elements
-        - https://9elements.com/blog/create-diagonal-layouts-like-its-2020/
-        - https://codepen.io/enbee81/full/yLyrmyg
+        c1. https://9elements.com/blog/create-diagonal-layouts-like-its-2020/
+        c2. https://codepen.io/enbee81/full/yLyrmyg
     Done
     d. box shadows on images and cards
     Done
@@ -68,8 +68,15 @@ Wip
 Wip
 
 5. add tablet and phone media queries
+    a. image changes
+        a1. gif for pc and tablet
+        a2. screenshot for (tablet?) phone
+    b. layout changes
 
-6. check accessibility 
+6. check accessibility
+    a. contrast
+    b. font sizes
+    c. alt text
 
 icons:
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" class="icons" />

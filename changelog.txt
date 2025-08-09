@@ -1,5 +1,11 @@
 8/9/25:
 
+- add about content
+- adjust contact section layout spacing
+- add fake contact info
+- add icon hover color
+- add text over main about image
+- rearrange project cards
 - add project information blurbs
 
 8/8/25:

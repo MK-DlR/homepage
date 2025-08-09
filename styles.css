@@ -41,7 +41,6 @@ h3 {
     position: relative;
     transform: translateY(-125px) skewY(-13deg);
     background-color: transparent;
-    
 }
 
 .about::before {
@@ -64,6 +63,19 @@ h3 {
     justify-content: space-between;
     width: 100%;
     transform: skewY(13deg);
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.image-text {
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .about-image {
@@ -150,17 +162,56 @@ h3 {
 }
 
 /* contact content section */
-.contact-section {
-    display: flex;
-    justify-content: space-between;
-}
-
 .contact {
     padding-top: 9vh;
     padding-bottom: 9vh;
 }
 
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 3vh;
+}
+
+.contact-text {
+    padding-right: 5vw;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    padding-bottom: 2vh;
+}
+
+address {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.sm-contact-icons {
+    height: 3vh;
+    padding-right: 1vh;
+    filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(199deg) brightness(102%) contrast(101%);
+}
+
+.contact-icons {
+    height: 5vh;
+    margin-top: 0.5vw;
+    margin-right: 1.5vw;
+}
+
 .contact-image {
-    max-width: 25vw;
+    max-width: 45vw;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* icon colors */
+.about-icons, .project-icons, .contact-icons {
+    transition-duration: 0.4s;
+}
+
+.about-icons:hover, .project-icons:hover, .contact-icons:hover {
+    filter: invert(73%) sepia(10%) saturate(1294%) hue-rotate(357deg) brightness(87%) contrast(84%);
 }
