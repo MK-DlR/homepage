@@ -51,6 +51,7 @@ Done
             - crop/portrait image for tablet and phone
         c2. contact info
             - fake address, phone, email
+Wip
 
 4. add styling
     a. fonts
@@ -60,7 +61,7 @@ Done
         - https://codepen.io/enbee81/full/yLyrmyg
     Done
     d. box shadows on images and cards
-    Wip
+    Done
     e. text colors
     f. link/button effects
         - pointer on hover, etc

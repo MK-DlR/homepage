@@ -1,3 +1,7 @@
+8/9/25:
+
+- add project information blurbs
+
 8/8/25:
 
 - populate project cards with gifs, names, and links
