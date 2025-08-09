@@ -1,5 +1,9 @@
 8/9/25:
 
+- adjust background accent color
+- add font style and color
+- adjust live project links to open in new tab
+- add darker hover effect to project gifs
 - add about content
 - adjust contact section layout spacing
 - add fake contact info
