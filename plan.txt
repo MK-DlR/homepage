@@ -59,19 +59,44 @@ Done
     c. background elements
         c1. https://9elements.com/blog/create-diagonal-layouts-like-its-2020/
         c2. https://codepen.io/enbee81/full/yLyrmyg
-    Done
     d. box shadows on images and cards
-    Done
     e. text colors
     f. link/button effects
         - pointer on hover, etc
+Done
+
+5. add tablet media query
+    a. about
+        a1. smaller header image size
+        a2. about section aligned differently behind image
+        a3. about header centered
+        a4. text over image goes over top of about section
+        a5. hide github/linked in icons
+    b. projects
+        b1. rows of 2 project cards
+            - wider with less gap between them
+        b2. stills instead of gifs
+    c. contact
+        c1. smaller footer image size
 Wip
 
-5. add tablet and phone media queries
-    a. image changes
-        a1. gif for pc and tablet
-        a2. screenshot for (tablet?) phone
-    b. layout changes
+6. add phone media query
+    a. about
+        a1. smaller header image size
+        a2. image fully above about
+        a3. text over image
+        a4. github/linked in icons present
+        a5. card/box shadow removed
+        b4. about header centered
+    b. projects
+        b1. single project rows
+        b2. stills instead of gifs
+        b3. project header centered
+        b4. make sure info/icons don't overflow cards
+    c. contact
+        c1. smaller footer image size
+        c2. image fully below contact info
+        c3. contact header centered
 
 6. check accessibility
     a. contrast
