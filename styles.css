@@ -136,7 +136,7 @@ h3 {
 }
 
 .project-image {
-    max-width: inherit;
+    max-width: 27vw;
     transition-duration: 0.4s;
 }
 
@@ -301,9 +301,13 @@ address {
         max-width: 40vw;
     }
 
+    .project-image {
+        max-width: 40vw;
+    }
+
     .project-card-header, .project-desc {
-    padding-left: 2vw;
-    padding-right: 2vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
 }
 }
 
