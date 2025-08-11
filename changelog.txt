@@ -1,5 +1,6 @@
 8/11/25:
 
+- add footer section specifications for tablet
 - change images to stills for monitors under 1001px
 - update still project images
 - add project section specifications for tablet

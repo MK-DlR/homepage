@@ -78,7 +78,7 @@ Done
         b2. stills instead of gifs
     c. contact
         c1. smaller footer image size
-Wip
+Done
 
 6. add phone media query
     a. about

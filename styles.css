@@ -235,11 +235,7 @@ address {
 
 /* media queries */
 /* tablet */
-@media (max-width: 1000px) {
-    body {
-        background: blue;
-    }
-    
+@media (max-width: 1000px) {   
     /* diagonal background */
     .about::before {
         height: 65%; 
@@ -248,8 +244,8 @@ address {
     /* about content section */
     .about-content {
         margin-top: 20vh;
-        margin-left: 45vw;
-        max-width: 45vw;
+        margin-left: 39vw;
+        max-width: 47vw;
     }
 
     .image-container {
@@ -262,7 +258,7 @@ address {
         shape-outside: margin-box;
         margin-right: 3vw;
         display: block;
-        margin-left: -110px;
+        margin-left: -70px;
         margin-top: -150px;
     }
 
@@ -308,7 +304,26 @@ address {
     .project-card-header, .project-desc {
         padding-left: 2vw;
         padding-right: 2vw;
-}
+    }
+
+    /* contact content section */
+    .contact {
+        max-width: 10vw;
+        margin-left: 4vw;
+    }
+
+    .contact-section {
+        font-size: 2.5vh;
+    }
+
+    .contact-text {
+        max-width: 50vw;
+        padding-right: 10vw;
+    }
+
+    .contact-image {
+        max-width: 35vw;
+    }
 }
 
 /* phone */
