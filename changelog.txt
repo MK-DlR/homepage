@@ -1,3 +1,8 @@
+8/11/25:
+
+- add project section specifications for tablet
+- add about section specifications for tablet
+
 8/9/25:
 
 - set up basic media query breakpoints for tablet and phone

@@ -79,6 +79,7 @@ h3 {
     top: 98%;
     left: 50%;
     transform: translate(-50%, -50%);
+    white-space: nowrap;
 }
 
 .about-image {
@@ -238,6 +239,72 @@ address {
     body {
         background: blue;
     }
+    
+    /* diagonal background */
+    .about::before {
+        height: 65%; 
+    }
+
+    /* about content section */
+    .about-content {
+        margin-top: 20vh;
+        margin-left: 45vw;
+        max-width: 45vw;
+    }
+
+    .image-container {
+        display: inline-block;
+    }
+
+    .about-image {
+        float: left;
+        max-height: 50vh;
+        shape-outside: margin-box;
+        margin-right: 3vw;
+        display: block;
+        margin-left: -110px;
+        margin-top: -150px;
+    }
+
+    .image-text {
+        position: absolute;
+        top: 10vh;
+        left: 13vw;
+    }
+
+    .about-header {
+        margin-top: 4vh;
+        text-align: center;
+    }
+
+    .about-text {
+        margin-top: 14vh;
+        margin-bottom: 2vh;
+        margin-left: -40vw;
+        padding: 5vh 5vw 8vw 5vw;
+    }
+
+    .about-icon-container {
+        display: none;
+    }
+
+    /* project content section */
+    .projects {
+        margin-top: -12vh;
+    }
+
+    .card-section {
+        gap: 3rem;
+    }
+
+    .project-card {
+        max-width: 40vw;
+    }
+
+    .project-card-header, .project-desc {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
 }
 
 /* phone */

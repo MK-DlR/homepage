@@ -12,10 +12,10 @@
             <div class="about-content">
                 <div class="image-container">
                     <img src="./images/fisherman.jpg" alt="Majima from the Yakuza series" class="about-image">
-                    <div class="image-text"><h2>MK-DlR</h2></div>
+                    <div class="image-text"><h2>MK-DlR (mkdir)</h2></div>
                 </div>
                 <div class="about-text">
-                    <h2 style="color:black">About</h2>
+                    <h2 style="color:black" class="about-header">About</h2>
                     <p>When I first began learning coding, the make directory command sounded funny to me, so now I go by MK-DlR (lowercase l). I'm a student of The Odin Project with a focus on JavaScript. As is obvious from many of my projects, I particularly enjoy SEGA's Yakuza/Like A Dragon series and much of my work features gifs and images from it. The character typically seen in my codes and READMEs is Majima Gorō.</p>
                     <p class="about-icon-container">
                         <a href="https://ca.linkedin.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" class="about-icons" /></a>
@@ -205,5 +205,33 @@
             <img src="./images/looking.jpg" alt="Majima from the Yakuza series" class="contact-image">
         </div>
     </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const imageContainer = document.querySelector('.image-container');
+            const aboutText = document.querySelector('.about-text');
+            const aboutImage = document.querySelector('.about-image');
+
+            function moveImage() {
+            if (window.innerWidth <= 1000) {
+                if (!aboutText.contains(aboutImage)) {
+                aboutText.insertBefore(aboutImage, aboutText.firstChild);
+                }
+            } else {
+                if (!imageContainer.contains(aboutImage)) {
+                imageContainer.insertBefore(aboutImage, imageContainer.firstChild);
+                }
+            }
+            }
+
+            moveImage(); // initial check
+
+            window.addEventListener('resize', () => {
+            moveImage();
+            });
+        });
+    </script>
+
+
 </body>
 </html>
