@@ -1,5 +1,6 @@
 8/11/25:
 
+- add bsky icon and link
 - add project section specifications for mobile
 - add about section specifications for mobile
 - add new about section image

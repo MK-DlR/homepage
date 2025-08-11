@@ -198,8 +198,8 @@ h3 {
 }
 
 address {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 .sm-contact-icons {
@@ -211,7 +211,7 @@ address {
 .contact-icons {
     height: 5vh;
     margin-top: 0.5vw;
-    margin-right: 1.5vw;
+    margin-right: 1.25vw;
     filter: invert(73%) sepia(10%) saturate(1294%) hue-rotate(357deg) brightness(87%) contrast(84%);
 }
 
@@ -327,15 +327,12 @@ address {
 
     .contact-image {
         max-width: 35vw;
+        margin-right: 2vw;
     }
 }
 
 /* phone */
 @media (max-width: 500px) {
-    body {
-        background: green;
-    }
-
     /* diagonal background */
     .about::before {
         height: 35%; 
@@ -343,7 +340,7 @@ address {
 
     /* about content section */
     .about-content {
-        max-width: 48vw;
+        max-width: 88vw;
     }
 
     .about-text {
@@ -403,5 +400,44 @@ address {
     }
 
     /* footer content section */
+    .contact {
+        max-width: 88vw; 
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
 
+    .contact-section {
+        flex-direction: column;
+        margin-top: -5vh;
+    }
+
+    .contact-text h2 {
+        text-align: center;
+    }
+
+    .contact-text {
+        max-width: 100%;
+        padding-right: 0; 
+        margin-bottom: 3vh;
+        font-size: 2vh;
+    }
+
+    .contact-icon-container {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 4vh;
+    }
+
+    .contact-icons {
+        margin: 4vw;
+    }
+
+    .contact-image {
+        width: 98vw;
+        max-width: none;
+        height: auto; 
+        margin-top: 0; 
+        margin-left: calc(-50vw + 50%); /* center the image */
+        display: block; 
+    }
 }
