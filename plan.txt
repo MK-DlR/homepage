@@ -97,6 +97,7 @@ Done
         c1. smaller footer image size
         c2. image fully below contact info
         c3. contact header centered
+Wip
 
 6. check accessibility
     a. contrast

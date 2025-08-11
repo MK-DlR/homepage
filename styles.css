@@ -306,6 +306,10 @@ address {
         padding-right: 2vw;
     }
 
+    .project-icons {
+        margin-left: 1.5vw;
+    }
+
     /* contact content section */
     .contact {
         max-width: 10vw;
@@ -331,4 +335,73 @@ address {
     body {
         background: green;
     }
+
+    /* diagonal background */
+    .about::before {
+        height: 35%; 
+    }
+
+    /* about content section */
+    .about-content {
+        max-width: 48vw;
+    }
+
+    .about-text {
+        margin-top: 60vh;
+        box-shadow: none;
+        padding-top: 0px;
+    }
+
+    .about-image {
+        max-width: 60vw !important;
+        max-height: none;
+        height: auto;
+        margin-left: 70px;
+        margin-top: -620px;
+    }
+
+    .image-text {
+        position: absolute;
+        top: 32%;
+        left: 50%;
+        transform: translate(-28%, -50%);
+        white-space: nowrap;
+    }
+
+    .image-text h2 {
+        font-size: 3vh;
+    }
+
+    .about-icon-container {
+        display: flex;
+        flex-shrink: 0;
+        flex-direction: row-reverse;
+        position: relative; 
+        justify-content: center;
+        margin-top: 10vh;
+    }
+
+    .about-icons {
+        margin: 3vw;
+    }
+
+    /* projects content section */
+    .projects h2 {
+        text-align: center;
+    }
+
+    .project-card {
+        max-width: 88vw;
+    }
+
+    .project-image {
+        max-width: 88vw;
+    }
+
+    .project-icons {
+        margin-left: 3vw;
+    }
+
+    /* footer content section */
+
 }

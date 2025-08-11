@@ -11,12 +11,15 @@
         <section class="about">
             <div class="about-content">
                 <div class="image-container">
-                    <img src="./images/fisherman.jpg" alt="Majima from the Yakuza series" class="about-image">
+                    <picture>
+                        <source media="(min-width: 1001px)" srcset="./images/dagger-sm.jpg">
+                        <img src="./images/dagger.jpg" alt="Majima from the Yakuza series" class="about-image">
+                    </picture>
                     <div class="image-text"><h2>MK-DlR (mkdir)</h2></div>
                 </div>
                 <div class="about-text">
                     <h2 style="color:black" class="about-header">About</h2>
-                    <p>When I first began learning coding, the make directory command sounded funny to me, so now I go by MK-DlR (lowercase l). I'm a student of The Odin Project with a focus on JavaScript. As is obvious from many of my projects, I particularly enjoy SEGA's Yakuza/Like A Dragon series and much of my work features gifs and images from it. The character typically seen in my codes and READMEs is Majima Gorō.</p>
+                    <p>When I first began to learn coding, the make directory command sounded funny to me, so now I go by MK-DlR (lowercase l). I'm a student of The Odin Project with a focus on JavaScript. As is obvious from many of my projects, I particularly enjoy SEGA's Yakuza/Like A Dragon series and much of my work features gifs and images from it. The character typically seen in my codes and READMEs is Majima Gorō.</p>
                     <p class="about-icon-container">
                         <a href="https://ca.linkedin.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" class="about-icons" /></a>
                         <a href="https://github.com/MK-DlR"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" class="about-icons" /></a>
@@ -246,31 +249,28 @@
     </footer>
     
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const imageContainer = document.querySelector('.image-container');
-            const aboutText = document.querySelector('.about-text');
-            const aboutImage = document.querySelector('.about-image');
+    document.addEventListener('DOMContentLoaded', () => {
+        const imageContainer = document.querySelector('.image-container');
+        const aboutText = document.querySelector('.about-text');
+        const picture = imageContainer.querySelector('picture');
 
-            function moveImage() {
+        function movePicture() {
             if (window.innerWidth <= 1000) {
-                if (!aboutText.contains(aboutImage)) {
-                aboutText.insertBefore(aboutImage, aboutText.firstChild);
+                if (!aboutText.contains(picture)) {
+                    aboutText.insertBefore(picture, aboutText.firstChild);
                 }
             } else {
-                if (!imageContainer.contains(aboutImage)) {
-                imageContainer.insertBefore(aboutImage, imageContainer.firstChild);
+                if (!imageContainer.contains(picture)) {
+                    imageContainer.insertBefore(picture, imageContainer.firstChild);
                 }
             }
-            }
+        }
 
-            moveImage(); // initial check
+        movePicture(); // initial check
 
-            window.addEventListener('resize', () => {
-            moveImage();
-            });
-        });
+        window.addEventListener('resize', movePicture);
+    });
     </script>
-
 
 </body>
 </html>

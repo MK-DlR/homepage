@@ -1,5 +1,9 @@
 8/11/25:
 
+- add project section specifications for mobile
+- add about section specifications for mobile
+- add new about section image
+- update about image and add secondary version to be used in mobile
 - add footer section specifications for tablet
 - change images to stills for monitors under 1001px
 - update still project images
