@@ -383,6 +383,10 @@ address {
     }
 
     /* projects content section */
+    .projects {
+        margin-top: -20vh;
+    }
+
     .projects h2 {
         text-align: center;
     }

@@ -1,5 +1,6 @@
 8/11/25:
 
+- reduce margin between about and project section for mobile view
 - add bsky icon and link
 - add project section specifications for mobile
 - add about section specifications for mobile
