@@ -1,5 +1,6 @@
 8/12/25:
 
+- add alt text for icons
 - initial push for accessibility testing
 
 8/11/25:
